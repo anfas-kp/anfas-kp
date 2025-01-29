@@ -28,9 +28,3 @@ AI Data Engineering student with a passion for exploring new technologies and bu
 <a href="http://www.github.com/anfas-kp"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=anfas-kp&bg_color=1c1917&color=ffffff&line=14b8a6&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <a href="https://github.com/anfas-kp" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfas-kp&langs_count=10&title_color=22c55e&text_color=ffffff&icon_color=14b8a6&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-
- Total contributions and streaks
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anfas-kp"/>
-
- GitHub repository
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=anfas-kp=github_profile"/>
