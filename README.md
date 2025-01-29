@@ -1,7 +1,7 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Anfas KP
 ================================================================================================================================
 
-<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Coding" width="300" src="https://raw.githubusercontent.com/andreapollastri/andreapollastri/main/intro.gif">
 
 AI Data Engineering student
 ---------------------------
