@@ -32,6 +32,5 @@ AI Data Engineering student with a passion for exploring new technologies and bu
  Total contributions and streaks
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=anfas-kp"/>
 
-- [ ] [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
-- [ ] [Github Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
-- [ ] [Awesome GitHub Stats Demo](https://awesome-github-stats.azurewebsites.net/)
+ GitHub repository
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=anfas-kp=github_profile"/>
