@@ -16,11 +16,6 @@ Passionate about turning data into intelligent solutions. I love exploring new t
 
 > _“Learning never exhausts the mind.” – Leonardo da Vinci_  
 
-
-* 🌍  I'm based in India
-* ✉️  You can contact me at [@anfasanz33@gmail.com](mailto:@anfasanz33@gmail.com)
-* 🧠  I'm learning Deep Learning
-
 ### Skills
 
 <p align="left">
