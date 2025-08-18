@@ -3,10 +3,21 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 <img align="right" alt="Coding" width="300" src="https://raw.githubusercontent.com/andreapollastri/andreapollastri/main/intro.gif">
 
-AI Data Engineering student
----------------------------
+### 👋 Hi there, I'm Anfas
 
-AI Data Engineering student with a passion for exploring new technologies and building projects in the field. Always eager to learn and experiment with innovative ideas in artificial intelligence and data science.
+**Data Scientist | AI & ML Enthusiast | Project Builder**
+
+Passionate about turning data into intelligent solutions. I love exploring new technologies, building AI-driven projects, and continuously experimenting with innovative ideas at the intersection of **machine learning**, **deep learning**, and **data science**.
+
+- 🌍 Based in India  
+- 🧠 Currently diving deeper into **Deep Learning & Generative AI**  
+- 📫 Reach me at: anfasanz33@gmail.com  
+- 🚀 Always open to collaborations, exciting problems, and impactful projects  
+
+---
+
+> _“Learning never exhausts the mind.” – Leonardo da Vinci_  
+
 
 * 🌍  I'm based in India
 * ✉️  You can contact me at [@anfasanz33@gmail.com](mailto:@anfasanz33@gmail.com)
