@@ -3,8 +3,6 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 <img align="right" alt="Coding" width="300" src="https://raw.githubusercontent.com/andreapollastri/andreapollastri/main/intro.gif">
 
-### 👋 Hi there, I'm Anfas
-
 **Data Scientist | AI & ML Enthusiast | Project Builder**
 
 Passionate about turning data into intelligent solutions. I love exploring new technologies, building AI-driven projects, and continuously experimenting with innovative ideas at the intersection of **machine learning**, **deep learning**, and **data science**.
