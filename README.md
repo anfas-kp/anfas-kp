@@ -1,170 +1,287 @@
-<!-- Luxury Minimalist Header -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=120&section=header&text=Anfas%20KP&fontSize=60&fontColor=D4AF37&fontAlignY=50" width="100%"/>
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <!-- Core Fonts & Styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
+      .txt-base { font-family: 'Inter', system-ui, sans-serif; fill: #F8FAFC; }
+      .txt-muted { font-family: 'Inter', system-ui, sans-serif; fill: #94A3B8; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+      .bold { font-weight: 700; }
+      .medium { font-weight: 500; }
+      .semi { font-weight: 600; }
+      
+      /* Interactive Skill Pills */
+      .skill-pill { transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); cursor: pointer; }
+      .skill-pill:hover { transform: scale(1.06); }
+      .skill-pill:hover .pill-bg { fill: #1E293B; stroke: url(#gradient-accent); filter: drop-shadow(0 0 8px rgba(34,211,238,0.4)); }
+      .skill-pill:hover .pill-text { fill: #22D3EE; }
+      
+      /* Social Icons Interaction */
+      .social-icon { transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); cursor: pointer; }
+      .social-icon:hover { transform: scale(1.15); filter: drop-shadow(0 0 10px rgba(124,58,237,0.6)); }
+      .social-icon:hover .icon-shape { stroke: url(#gradient-accent); }
+    </style>
 
-<div align="center">
-  
-<!-- Elegant Animated Typing -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=24&duration=4000&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Data+Scientist+%7C+AI+Architect;Engineering+Intelligence+Through+Code;Deep+Learning+%E2%80%A2+Computer+Vision+%E2%80%A2+Generative+AI" alt="Typing SVG" />
-</a>
+    <!-- Glowing Filters -->
+    <filter id="glow-ambient" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-panel" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="ascii-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
 
-<!-- Refined Profile Badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anfas-kp&label=Views&color=000000&labelColor=D4AF37&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/anfas-kp?label=Followers&style=for-the-badge&color=000000&labelColor=D4AF37" alt="followers" />
-  <img src="https://img.shields.io/github/stars/anfas-kp?label=Stars&style=for-the-badge&color=000000&labelColor=D4AF37" alt="stars" />
-</p>
+    <!-- Master Accent Gradients -->
+    <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
 
-</div>
+    <linearGradient id="gradient-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#10B981" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
 
-<br>
+    <linearGradient id="gradient-ascii" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#10B981" />
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 50 50" to="360 50 50" dur="10s" repeatCount="indefinite" />
+    </linearGradient>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/golden.png" width="80%" />
-</div>
+    <linearGradient id="border-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.03)" />
+      <stop offset="30%" stop-color="rgba(34,211,238,0.2)" />
+      <stop offset="50%" stop-color="rgba(124,58,237,0.4)" />
+      <stop offset="70%" stop-color="rgba(16,185,129,0.2)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 -1" to="1 1" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
 
-<br>
+    <!-- Particle Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.04)" />
+    </pattern>
+  </defs>
 
-<!-- Executive Summary -->
-<div align="center">
+  <!-- Canvas Background -->
+  <rect width="1180" height="610" fill="url(#gradient-bg)" rx="16" />
+  <rect width="1180" height="610" fill="url(#grid)" rx="16" />
 
-### ✦ Executive Summary ✦
+  <!-- Ambient Background Glows -->
+  <circle cx="200" cy="150" r="180" fill="#7C3AED" opacity="0.15" filter="url(#glow-ambient)">
+    <animate attributeName="cx" values="200;250;200" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="150;100;150" dur="10s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="450" r="220" fill="#22D3EE" opacity="0.12" filter="url(#glow-ambient)">
+    <animate attributeName="cx" values="950;880;950" dur="12s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="300" r="140" fill="#10B981" opacity="0.08" filter="url(#glow-ambient)">
+    <animate attributeName="r" values="140;170;140" dur="8s" repeatCount="indefinite" />
+  </circle>
 
-<table border="0" align="center" width="80%">
-<tr>
-<td width="40%" align="center">
-  <img src="https://raw.githubusercontent.com/andreapollastri/andreapollastri/main/intro.gif" width="90%" style="border-radius: 8px; border: 1px solid #D4AF37;"/>
-</td>
-<td width="60%" valign="top">
+  <!-- Dynamic Scanline Sweep -->
+  <line x1="0" y1="-10" x2="1180" y2="-10" stroke="rgba(34,211,238,0.05)" stroke-width="2">
+    <animate attributeName="y1" values="-10;620;-10" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="-10;620;-10" dur="8s" repeatCount="indefinite" />
+  </line>
 
-```json
-{
-  "professional": "Data Scientist & AI Architect",
-  "base": "Kerala, India",
-  "expertise": [
-    "Deep Learning Architecture",
-    "Generative AI & LLMs",
-    "Computer Vision Systems",
-    "MLOps & Deployment"
-  ],
-  "philosophy": "Architecting elegant, scalable AI solutions that transcend conventional boundaries."
-}
-```
+  <!-- ==================== LEFT SIDE: CYBER TERMINAL PORTRAIT ==================== -->
+  <g transform="translate(45, 45)">
+    <!-- Floating Frame Group -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -10; 0 0" dur="5s" repeatCount="indefinite" easing="ease-in-out" />
+      
+      <!-- Portrait Glass Console -->
+      <rect width="400" height="520" fill="#0F172A" fill-opacity="0.6" rx="14" stroke="url(#border-shimmer)" stroke-width="1.5" filter="url(#glow-panel)" />
+      
+      <!-- Terminal Header Decorations -->
+      <circle cx="25" cy="22" r="5" fill="#EF4444" opacity="0.8"/>
+      <circle cx="41" cy="22" r="5" fill="#F59E0B" opacity="0.8"/>
+      <circle cx="57" cy="22" r="5" fill="#10B981" opacity="0.8"/>
+      <text x="200" y="26" class="txt-mono txt-muted" font-size="11" text-anchor="middle" letter-spacing="1.5">AI_CORE_VISUAL.SH</text>
+      <line x1="15" y1="42" x2="385" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-<br>
-<b>Vision</b> <br>
-Translating complex mathematics into sophisticated, production-ready artificial intelligence.
+      <!-- Master Matrix Scanlines Overlay Inside Terminal -->
+      <path d="M 15 42 L 385 42 M 15 62 L 385 62 M 15 82 L 385 82 M 15 102 L 385 102 M 15 122 L 385 122 M 15 142 L 385 142 M 15 162 L 385 162 M 15 182 L 385 182 M 15 202 L 385 202 M 15 222 L 385 222 M 15 242 L 385 242 M 15 262 L 385 262 M 15 282 L 385 282 M 15 302 L 385 302 M 15 322 L 385 322 M 15 342 L 385 342 M 15 362 L 385 362 M 15 382 L 385 382 M 15 402 L 385 402 M 15 422 L 385 422 M 15 442 L 385 442 M 15 462 L 385 462 M 15 482 L 385 482 M 15 502 L 385 502" stroke="rgba(255,255,255,0.015)" stroke-width="1" />
 
-</td>
-</tr>
-</table>
+      <!-- HIGH-CRAFT ANIMATED GRADIENT ASCII ART PORTRAIT -->
+      <g filter="url(#ascii-glow)" transform="translate(45, 75)">
+        <!-- Continuous Color Wave Shift -->
+        <text class="txt-mono bold" font-size="12" fill="url(#gradient-ascii)" letter-spacing="1">
+          <tspan x="0" dy="16" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.1s" fill="freeze"/>        __   _  __  __ ____   ____  </tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.2s" fill="freeze"/>       /  | / |/ / / // __/  / __/  </tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.3s" fill="freeze"/>      / o |/    / / /_\ \   / _/    </tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.4s" fill="freeze"/>     /_/|_/_/|_/_/_//___/  /_/      </tspan>
+          <tspan x="0" dy="25" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.5s" fill="freeze"/>              ________  ______      </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.6s" fill="freeze"/>             / __/ __ \/ __/ _ \     </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.7s" fill="freeze"/>            / _// /_/ / _// , _/     </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.8s" fill="freeze"/>           /_/  \____/_/ /_/|_|      </tspan>
+          <tspan x="0" dy="28" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.9s" fill="freeze"/>         _____________________      </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.0s" fill="freeze"/>        &lt;  // // // / / / / / \     </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.1s" fill="freeze"/>        / // _  / /_/ /_  _/_/      </tspan>
+          <tspan x="0" dy="14" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.2s" fill="freeze"/>       /_//_//_/\____/ /_/ (_)      </tspan>
+          <tspan x="0" dy="28" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.3s" fill="freeze"/>       [MODEL: DEEP_LEARNING_v2.6]  </tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.4s" fill="freeze"/>       [STATUS: ACTIVE_OPTIMIZING]  </tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.5s" fill="freeze"/>       [LOC: 10.8505° N, 75.7804° E]</tspan>
+          <tspan x="0" dy="15" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.6s" fill="freeze"/>       &gt;_ status --live ready       </tspan>
+        </text>
+        <!-- Blinking Terminal Cursor inside Portrait Frame -->
+        <rect x="235" y="293" width="8" height="13" fill="#10B981">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+        </rect>
+      </g>
+    </g>
+  </g>
 
-</div>
+  <!-- ==================== RIGHT SIDE: DEV CONSOLE & HUB ==================== -->
+  <g transform="translate(485, 45)">
+    <!-- Main Shell Panel Container -->
+    <rect width="650" height="520" fill="#0F172A" fill-opacity="0.75" rx="14" stroke="url(#border-shimmer)" stroke-width="1.5" filter="url(#glow-panel)" />
+    
+    <!-- Header Control Architecture -->
+    <circle cx="25" cy="22" r="5" fill="#EF4444" opacity="0.8"/>
+    <circle cx="41" cy="22" r="5" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="57" cy="22" r="5" fill="#10B981" opacity="0.8"/>
+    <text x="325" y="26" class="txt-mono txt-muted" font-size="11" text-anchor="middle" letter-spacing="2">ANFASKP @ ZLAQA-CORE-SHELL</text>
+    <rect x="585" y="14" width="40" height="16" rx="4" fill="rgba(255,255,255,0.05)" />
+    <text x="605" y="26" class="txt-mono txt-muted" font-size="9" text-anchor="middle">zsh</text>
+    <line x1="15" y1="42" x2="635" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-<br>
+    <!-- GREETING & HEADLINE SECTION -->
+    <g transform="translate(30, 75)">
+      <text class="txt-base medium" font-size="18" fill="#94A3B8">Hi 👋 <tspan fill="#F8FAFC" class="semi">I'm Anfas K P</tspan></text>
+      
+      <!-- CORE HIGH-END INFINITE TYPING MOTIONS -->
+      <g transform="translate(0, 32)">
+        <text class="txt-mono bold" font-size="24" fill="url(#gradient-accent)">
+          <!-- Dynamic Typing Text Loop Sequences via SMIL -->
+          <animate attributeName="string" 
+                   values="&gt; AI &amp; Django Developer; &gt; Python AI Engineer; &gt; Machine Learning Enthusiast; &gt; Tech Lead @ ZLAQA AI Labs; &gt; Building AI for Healthcare; &gt; Data Scientist" 
+                   dur="18s" repeatCount="indefinite" />
+        </text>
+        <!-- Typing Cursor Effect -->
+        <rect x="0" y="5" width="3" height="24" fill="#22D3EE">
+          <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite" />
+          <animateTransform attributeName="transform" type="translate" 
+                            values="280;320;360;330;350;250" dur="18s" repeatCount="indefinite" />
+        </rect>
+      </g>
+    </g>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/golden.png" width="80%" />
-</div>
+    <!-- METADATA INFORMATION CARDS (Sequential Transitions) -->
+    <g transform="translate(30, 160)">
+      <!-- Card 1: Location -->
+      <g opacity="0">
+        <animate attributeName="opacity" to="1" dur="0.4s" begin="0.5s" fill="freeze" />
+        <circle cx="12" cy="10" r="10" fill="rgba(34,211,238,0.1)"/>
+        <text x="12" y="14" font-size="10" text-anchor="middle">📍</text>
+        <text x="32" y="14" class="txt-muted" font-size="13">Location: <tspan fill="#F8FAFC" class="medium">Malappuram, Kerala, India</tspan></text>
+      </g>
 
-<br>
+      <!-- Card 2: Education -->
+      <g transform="translate(0, 30)" opacity="0">
+        <animate attributeName="opacity" to="1" dur="0.4s" begin="0.7s" fill="freeze" />
+        <circle cx="12" cy="10" r="10" fill="rgba(124,58,237,0.1)"/>
+        <text x="12" y="14" font-size="10" text-anchor="middle">🎓</text>
+        <text x="32" y="14" class="txt-muted" font-size="13">Education: <tspan fill="#F8FAFC" class="medium">B.Sc Physics • Diploma in AI Data Engineering</tspan></text>
+      </g>
 
-<!-- Technical Arsenal -->
-<div align="center">
+      <!-- Card 3: Focus -->
+      <g transform="translate(0, 60)" opacity="0">
+        <animate attributeName="opacity" to="1" dur="0.4s" begin="0.9s" fill="freeze" />
+        <circle cx="12" cy="10" r="10" fill="rgba(16,185,129,0.1)"/>
+        <text x="12" y="14" font-size="10" text-anchor="middle">🚀</text>
+        <text x="32" y="14" class="txt-muted" font-size="13">Focus: <tspan fill="#F8FAFC" class="medium">AI Platform for Healthcare (Speech Therapy) @ ZLAQA</tspan></text>
+      </g>
+    </g>
 
-### ✦ Technical Arsenal ✦
+    <!-- ==================== PREMIUM GLOWING SKILL PILLS ==================== -->
+    <g transform="translate(30, 290)">
+      <text class="txt-base semi" font-size="13" fill="#94A3B8" letter-spacing="1">TECHNICAL EXPERTISE</text>
+      
+      <!-- Row 1 Skills -->
+      <g transform="translate(0, 20)">
+        <g class="skill-pill" transform="translate(0,0)"><rect class="pill-bg" width="72" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="36" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Python</text></g>
+        <g class="skill-pill" transform="translate(80,0)"><rect class="pill-bg" width="72" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="36" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Django</text></g>
+        <g class="skill-pill" transform="translate(160,0)"><rect class="pill-bg" width="74" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="37" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">FastAPI</text></g>
+        <g class="skill-pill" transform="translate(242,0)"><rect class="pill-bg" width="60" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="30" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Flask</text></g>
+        <g class="skill-pill" transform="translate(310,0)"><rect class="pill-bg" width="136" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="68" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Machine Learning</text></g>
+        <g class="skill-pill" transform="translate(454,0)"><rect class="pill-bg" width="110" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="55" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Deep Learning</text></g>
+      </g>
 
-<br>
+      <!-- Row 2 Skills -->
+      <g transform="translate(0, 56)">
+        <g class="skill-pill" transform="translate(0,0)"><rect class="pill-bg" width="96" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="48" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">TensorFlow</text></g>
+        <g class="skill-pill" transform="translate(104,0)"><rect class="pill-bg" width="74" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="37" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">PyTorch</text></g>
+        <g class="skill-pill" transform="translate(186,0)"><rect class="pill-bg" width="70" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="35" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">OpenCV</text></g>
+        <g class="skill-pill" transform="translate(264,0)"><rect class="pill-bg" width="86" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="43" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">LangChain</text></g>
+        <g class="skill-pill" transform="translate(358,0)"><rect class="pill-bg" width="94" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="47" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Gemini API</text></g>
+        <g class="skill-pill" transform="translate(460,0)"><rect class="pill-bg" width="60" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="30" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">React</text></g>
+        <g class="skill-pill" transform="translate(528,0)"><rect class="pill-bg" width="46" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="23" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Git</text></g>
+      </g>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,opencv,gcp&theme=dark&perline=6" />
-  </a>
-</p>
+      <!-- Row 3 Skills -->
+      <g transform="translate(0, 92)">
+        <g class="skill-pill" transform="translate(0,0)"><rect class="pill-bg" width="96" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="48" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">PostgreSQL</text></g>
+        <g class="skill-pill" transform="translate(104,0)"><rect class="pill-bg" width="84" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="42" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Supabase</text></g>
+        <g class="skill-pill" transform="translate(196,0)"><rect class="pill-bg" width="64" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="32" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Docker</text></g>
+        <g class="skill-pill" transform="translate(268,0)"><rect class="pill-bg" width="60" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="30" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Redis</text></g>
+        <g class="skill-pill" transform="translate(336,0)"><rect class="pill-bg" width="68" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="34" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Celery</text></g>
+        <g class="skill-pill" transform="translate(412,0)"><rect class="pill-bg" width="60" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="30" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Linux</text></g>
+        <g class="skill-pill" transform="translate(480,0)"><rect class="pill-bg" width="64" height="26" rx="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><text class="txt-mono pill-text" x="32" y="17" font-size="11" fill="#F8FAFC" text-anchor="middle">Figma</text></g>
+      </g>
+    </g>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,linux,git,github,fastapi,mysql&theme=dark&perline=6" />
-  </a>
-</p>
+    <!-- FOOTER TERMINAL INTERACTION: LINK HOVERS -->
+    <line x1="15" y1="460" x2="635" y2="460" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+    
+    <g transform="translate(30, 472)">
+      <!-- Target Contact Coordinates -->
+      <text class="txt-mono" font-size="11" fill="#64748B">ready@zlaqa:~# <tspan fill="#94A3B8">curl -sSf AI_Core</tspan></text>
+      
+      <!-- Minimalist Glowing Vector Social Actions -->
+      <g transform="translate(420, -2)">
+        <!-- GitHub icon -->
+        <a href="https://github.com/anfas-kp" target="_blank">
+          <g class="social-icon" transform="translate(0, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.03)" />
+            <path class="icon-shape" d="M15 5C9.5 5 5 9.5 5 15c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.4 4.7-4.6 4.9.4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0025 15c0-5.5-4.5-10-10-10z" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+          </g>
+        </a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge&logo=Jupyter&logoColor=D4AF37" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=D4AF37" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=D4AF37" alt="NumPy"/>
-</p>
+        <!-- LinkedIn icon -->
+        <a href="https://www.linkedin.com/in/anfas-k-p" target="_blank">
+          <g class="social-icon" transform="translate(40, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.03)" />
+            <path class="icon-shape" d="M9 10h3v10H9zm1.5-2a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm6.5 2c-2.2 0-3.5 1.2-4 2v-2h-3v10h3v-5.5c0-1.5.3-3 2.2-3 1.9 0 2 1.7 2 3.1V20h3v-6c0-3-1.5-4-3.7-4z" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+          </g>
+        </a>
 
-</div>
+        <!-- Portfolio Website icon -->
+        <a href="https://github.com/anfas-kp" target="_blank">
+          <g class="social-icon" transform="translate(80, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.03)" />
+            <path class="icon-shape" d="M7 15a8 8 0 1016 0A8 8 0 107 15z M5 15h20 M15 5v20" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+          </g>
+        </a>
 
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/golden.png" width="80%" />
-</div>
-
-<br>
-
-<!-- Performance Metrics -->
-<div align="center">
-
-### ✦ Performance Metrics ✦
-
-<br>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=anfas-kp&show_icons=true&theme=transparent&hide_border=true&title_color=D4AF37&icon_color=D4AF37&text_color=A9A9A9&bg_color=0d1117&ring_color=D4AF37" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=anfas-kp&theme=transparent&hide_border=true&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&background=0d1117&stroke=A9A9A9&dates=A9A9A9&sideLabels=A9A9A9&currStreakNum=A9A9A9&sideNums=A9A9A9" />
-
-<br>
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&theme=transparent&hide_border=true&title_color=D4AF37&text_color=A9A9A9&bg_color=0d1117" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/wakatime?username=anfaskp&theme=transparent&hide_border=true&title_color=D4AF37&text_color=A9A9A9&bg_color=0d1117&layout=compact" />
-
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/golden.png" width="80%" />
-</div>
-
-<br>
-
-<!-- Connect Section -->
-<div align="center">
-
-### ✦ Connect & Collaborate ✦
-
-<br>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/anfas--kp">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=D4AF37&color=000000&labelColor=000000" />
-  </a>
-  <a href="https://github.com/anfas-kp">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=D4AF37&color=000000&labelColor=000000" />
-  </a>
-  <a href="http://www.instagram.com/anfas._kp">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=D4AF37&color=000000&labelColor=000000" />
-  </a>
-  <a href="mailto:anfasanz33@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Contact-000000?style=for-the-badge&logo=gmail&logoColor=D4AF37&color=000000&labelColor=000000" />
-  </a>
-</p>
-
-<br>
-
-<i>"Simplicity is the ultimate sophistication." — Leonardo da Vinci</i>
-
-<br><br>
-
-### 📈 Contribution Insights
-
-<img src="https://github-contribution-stats.vercel.app/api/?username=anfas-kp&theme=dark" />
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=80&section=footer" width="100%"/>
-
-</div>
+        <!-- Email icon -->
+        <a href="mailto:anfasanu178@gmail.com">
+          <g class="social-icon" transform="translate(120, 0)">
+            <circle cx="15" cy="15" r="15" fill="rgba(255,255,255,0.03)" />
+            <path class="icon-shape" d="M6 8l9 6 9-6M6 6h18c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2z" fill="none" stroke="#94A3B8" stroke-width="1.2"/>
+          </g>
+        </a>
+      </g>
+    </g>
+  </g>
+</svg>
