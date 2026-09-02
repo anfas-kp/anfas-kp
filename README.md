@@ -38,12 +38,12 @@
   <!-- Stats & Top Languages — Side by Side (49% Width Each) -->
   <!-- Note: Replace YOUR_VERCEL_INSTANCE_URL with your self-hosted Vercel deployment URL -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR_VERCEL_INSTANCE_URL/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-    <img width="49%" src="https://YOUR_VERCEL_INSTANCE_URL/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=475569&bg_color=F8FAFC&card_width=500" alt="anfas-kp stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+    <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=475569&bg_color=F8FAFC&card_width=500" alt="anfas-kp stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR_VERCEL_INSTANCE_URL/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-    <img width="49%" src="https://YOUR_VERCEL_INSTANCE_URL/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=0891B2&text_color=475569&bg_color=F8FAFC&card_width=500" alt="anfas-kp top languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+    <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=0891B2&text_color=475569&bg_color=F8FAFC&card_width=500" alt="anfas-kp top languages" />
   </picture>
 
 </div>
