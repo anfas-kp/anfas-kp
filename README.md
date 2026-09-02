@@ -50,6 +50,13 @@
 
 <br/>
 
+<!-- ===== GITHUB DETAILED METRICS ===== -->
+<p align="center">
+  <img src="github-metrics.svg" alt="Anfas K P Detailed GitHub Metrics" width="100%" />
+</p>
+
+<br/>
+
 <!-- ===== CONTRIBUTION SNAKE ===== -->
 <p align="center">
   <picture>
