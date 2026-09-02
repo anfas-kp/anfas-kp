@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="195" viewBox="0 0 1180 195" fill="none">
+    <style>
+        .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 14px; fill: #0891B2; }
+        .num { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 32px; fill: #0F172A; }
+        .sub { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 400; font-size: 11px; fill: #475569; }
+    </style>
+    
+    <!-- Card Background -->
+    <rect width="1180" height="195" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Vertical Dividers -->
+    <line x1="393" y1="35" x2="393" y2="160" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="786" y1="35" x2="786" y2="160" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Column 1: Total Contributions -->
+    <g transform="translate(196, 0)">
+        <text x="0" y="80" text-anchor="middle" class="num">0</text>
+        <text x="0" y="108" text-anchor="middle" class="sub">Total Contributions</text>
+        <text x="0" y="128" text-anchor="middle" class="sub">Sep 3, 2024 - Present</text>
+    </g>
+    
+    <!-- Column 2: Current Streak -->
+    <g transform="translate(590, 0)">
+        <!-- Ring & Flame Icon -->
+        <circle cx="0" cy="72" r="38" fill="none" stroke="#7C3AED" stroke-width="4"/>
+        <path d="M-1,-2 C-3,-6 -1,-10 2,-13 C5,-16 4,-20 1,-23 C8,-20 12,-14 10,-8 C14,-11 14,-15 13,-18 C18,-13 18,-4 13,2 C10,6 4,7 0,4 C-4,7 -9,6 -11,2 C-14,-3 -13,-11 -8,-16 C-7,-13 -5,-10 -1,-7 Z" fill="#059669" transform="translate(0, 72) scale(0.95)"/>
+        
+        <text x="0" y="78" text-anchor="middle" class="num" style="font-size: 20px;">0</text>
+        <text x="0" y="130" text-anchor="middle" class="title">Current Streak</text>
+        <text x="0" y="150" text-anchor="middle" class="sub">Sep 02</text>
+    </g>
+    
+    <!-- Column 3: Longest Streak -->
+    <g transform="translate(983, 0)">
+        <text x="0" y="80" text-anchor="middle" class="num">0</text>
+        <text x="0" y="108" text-anchor="middle" class="sub">Longest Streak</text>
+        <text x="0" y="128" text-anchor="middle" class="sub"></text>
+    </g>
+</svg>
