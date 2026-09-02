@@ -14,7 +14,7 @@
     
     <!-- Column 1: Total Contributions -->
     <g transform="translate(196, 0)">
-        <text x="0" y="80" text-anchor="middle" class="num">444</text>
+        <text x="0" y="80" text-anchor="middle" class="num">445</text>
         <text x="0" y="108" text-anchor="middle" class="sub">Total Contributions</text>
         <text x="0" y="128" text-anchor="middle" class="sub">Jan 01, 2024 - Present</text>
     </g>
