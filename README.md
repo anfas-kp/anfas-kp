@@ -13,8 +13,8 @@
     <img src="https://img.shields.io/badge/Gmail-kpanfas04%40gmail.com-0A101F?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/anfas-kp">
-    <img src="https://img.shields.io/badge/LinkedIn-anfas--kp-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/anfas--kp/">
+    <img src="https://img.shields.io/badge/LinkedIn-anfas----kp-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://instagram.com/anfas._kp">
