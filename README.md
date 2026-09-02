@@ -1,10 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="anfas-kp's GitHub profile" src="dark_mode.svg" width="100%" />
-</picture>
+# Hi there, I'm Anfas 👋
 
-<br/>
+<p align="left">
+  <a href="https://github.com/anfas-kp">
+    <img src="https://img.shields.io/github/followers/anfas-kp?label=Followers&style=social" alt="Followers" />
+  </a>
+</p>
 
 ## 👨‍💻 About Me
 
