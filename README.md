@@ -1,6 +1,45 @@
-# 👋 Hey, I'm Anfas
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- Automatically shows dark.svg in dark mode and light.svg in light mode -->
 
-## Django & AI Developer • Python Engineer • AI/ML Enthusiast • Creative Technologist
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
+  <img alt="Anfas K P" src="assets/dark.svg" width="100%">
+</picture>
+
+<br/>
+
+<!-- ===== GITHUB STATS & STREAK ===== -->
+
+<div align="center">
+
+<!-- Streak — full width -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="anfas-kp's streak" />
+</picture>
+
+<br/><br/>
+
+<!-- Stats + Top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=anfas-kp&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=475569&bg_color=FFFFFF&card_width=500" alt="anfas-kp's stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&hide_border=true&title_color=0891B2&text_color=475569&bg_color=FFFFFF&card_width=500" alt="anfas-kp's top languages" />
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+## 👋 Hey, I'm Anfas
+
+### Django & AI Developer • Python Engineer • AI/ML Enthusiast • Creative Technologist
 
 <p align="left">
   <a href="https://github.com/anfas-kp">
@@ -246,8 +285,6 @@ This type of work has involved moving through the complete lifecycle:
 Idea → Development → Testing → Bug Fixing → Deployment → Production → Monitoring → Continuous Improvement
 ```
 
-I enjoy this iterative process because real engineering starts becoming interesting when **users actually interact with the system**.
-
 ---
 
 ### 🎨 Creative Technology & Football Visuals
@@ -261,35 +298,18 @@ Outside traditional software development, I’m deeply interested in visual desi
 I particularly enjoy combining **AI + Design + Storytelling + Technology**.
 
 #### My Design Approach
-- **Composition**: Defining clear visual hierarchy (first, second, third focus).
+- **Composition**: Defining clear visual hierarchy.
 - **Typography**: Font choice, hierarchy, spacing, weight, and visual personality.
 - **Lighting & Color**: Cinematic contrast, rim light, glow, and storytelling color palettes.
 - **Texture & Storytelling**: Atmospheric depth, grain, particles, and meaningful communication.
 
 ---
 
-## 📊 GitHub Metrics & Statistics
+## 📊 Extended Metrics & Contribution Snake
 
 <p align="center">
   <img src="github-metrics.svg" alt="Metrics" width="100%" />
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=anfas-kp&show_icons=true&theme=dark&count_private=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=anfas-kp&show_icons=true&theme=default&count_private=true" />
-    <img alt="anfas-kp's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=anfas-kp&show_icons=true&theme=dark&count_private=true" height="170" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&theme=default" />
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfas-kp&layout=compact&theme=dark" height="170" />
-  </picture>
-</p>
-
----
-
-## 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -302,8 +322,6 @@ I particularly enjoy combining **AI + Design + Storytelling + Technology**.
 ---
 
 ## 🧠 Creative + Technical Mindset
-
-One of the things that defines how I work is that I don't strictly separate development and design:
 
 ```text
 Backend + AI + Data + Automation + UX + Visual Design = Complete Product
@@ -361,8 +379,6 @@ Social Media / Poster
 ---
 
 ## 🚧 Currently Exploring
-
-My current direction is centered around becoming stronger at the intersection of:
 
 **Django + AI + Production Engineering + Creative Technology**
 
