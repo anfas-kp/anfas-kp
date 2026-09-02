@@ -29,8 +29,8 @@
 
   <!-- Streak Card — 100% Width -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
-    <img width="100%" src="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=F8FAFC&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="anfas-kp streak stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180&v=2" />
+    <img width="100%" src="https://streak-stats.demolab.com/?user=anfas-kp&hide_border=true&background=F8FAFC&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180&v=2" alt="anfas-kp streak stats" />
   </picture>
 
   <br/><br/>
@@ -47,13 +47,6 @@
   </picture>
 
 </div>
-
-<br/>
-
-<!-- ===== FULL EXTENDED GITHUB METRICS ===== -->
-<p align="center">
-  <img src="github-metrics.svg" alt="Anfas K P Full GitHub Metrics" width="100%" />
-</p>
 
 <br/>
 
