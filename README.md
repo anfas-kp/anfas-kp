@@ -210,98 +210,16 @@ I’m particularly interested in understanding what happens **after the code lea
 
 ---
 
-### 📄 Document & PDF Engineering
-One of my recent development areas has involved solving complex **PDF generation and multilingual document rendering** problems.
-
-This includes working through issues such as:
-* PDF generation pipelines & Font embedding
-* Unicode rendering & Malayalam text rendering
-* Arabic typography, Arabic shaping, and glyph processing
-* Malayalam conjunct handling & Text breaking issues
-* Browser-based PDF generation & Production deployment
-
-A major part of this work has been making sure languages such as **Malayalam and Arabic render correctly in production**, rather than relying on the assumption that standard text rendering will automatically handle complex scripts.
-
----
-
-### 🌍 Multilingual Technology
-I’m particularly interested in building software that works beyond English.
-
-Some of the technical challenges I've worked around include:
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**Malayalam Pipeline**
-```text
-Unicode
-   ↓
-Font selection
-   ↓
-Glyph shaping
-   ↓
-Conjunct handling
-   ↓
-Layout
-   ↓
-PDF rendering
-```
-
-</td>
-<td width="50%" valign="top">
-
-**Arabic Pipeline**
-```text
-Unicode
-   ↓
-Arabic shaping
-   ↓
-Character joining
-   ↓
-RTL layout
-   ↓
-Typography
-   ↓
-PDF rendering
-```
-
-</td>
-</tr>
-</table>
-
-Working on these problems has given me a deeper appreciation for **internationalization, typography, font systems, text shaping, and rendering pipelines**.
-
----
-
 ### 🚀 Real-World Product Development
 I’m not only interested in tutorials or isolated experiments. I work on real applications that need to survive **actual production environments**.
 
-One example is my work around **Zlaqa**, where I’ve worked on backend functionality, PDF generation, multilingual rendering, deployment, testing, and production fixes.
+One example is my work around **Zlaqa**, where I’ve worked on backend functionality, deployment, testing, and production fixes.
 
 This type of work has involved moving through the complete lifecycle:
 
 ```text
 Idea → Development → Testing → Bug Fixing → Deployment → Production → Monitoring → Continuous Improvement
 ```
-
----
-
-### 🎨 Creative Technology & Football Visuals
-Outside traditional software development, I’m deeply interested in visual design:
-* 🎨 Graphic design & UI/UX concepts
-* 🎬 Cinematic compositions & Digital artwork
-* ⚽ Football posters and edits (Player narratives, career moments, farewell concepts)
-* 🏷️ Branding & Social media designs
-* 🧠 AI-assisted artwork & Anime/manga-inspired compositions
-
-I particularly enjoy combining **AI + Design + Storytelling + Technology**.
-
-#### My Design Approach
-- **Composition**: Defining clear visual hierarchy.
-- **Typography**: Font choice, hierarchy, spacing, weight, and visual personality.
-- **Lighting & Color**: Cinematic contrast, rim light, glow, and storytelling color palettes.
-- **Texture & Storytelling**: Atmospheric depth, grain, particles, and meaningful communication.
 
 ---
 
@@ -347,10 +265,6 @@ Machine Learning
         ↓
 Automation
         ↓
-Document Processing
-        ↓
-Multilingual Systems
-        ↓
 Production Deployment
 ```
 
@@ -384,7 +298,6 @@ Social Media / Poster
 
 * Building AI-native applications & integrating LLMs with Django systems
 * Production AI workflows, machine learning applications & computer vision
-* Multilingual AI applications & advanced document generation
 * AI-assisted creative tools & modern UI/UX for AI products
 
 ---
@@ -421,8 +334,6 @@ Learn → Experiment → Build → Break → Debug → Improve → Deploy → Re
 │  🧠 Machine Learning            │
 │  ⚙️ Automation                  │
 │  ☁️ Production Deployment       │
-│  📄 Document Engineering        │
-│  🌍 Multilingual Systems        │
 │  🎨 Graphic Design              │
 │  🎬 Visual Storytelling         │
 │                                 │
