@@ -14,7 +14,7 @@
     
     <!-- Column 1: Total Contributions -->
     <g transform="translate(196, 0)">
-        <text x="0" y="80" text-anchor="middle" class="num">463</text>
+        <text x="0" y="80" text-anchor="middle" class="num">464</text>
         <text x="0" y="108" text-anchor="middle" class="sub">Total Contributions</text>
         <text x="0" y="128" text-anchor="middle" class="sub">Jan 01, 2024 - Present</text>
     </g>
@@ -25,9 +25,9 @@
         <circle cx="0" cy="72" r="38" fill="none" stroke="#A78BFA" stroke-width="4"/>
         <path d="M-1,-2 C-3,-6 -1,-10 2,-13 C5,-16 4,-20 1,-23 C8,-20 12,-14 10,-8 C14,-11 14,-15 13,-18 C18,-13 18,-4 13,2 C10,6 4,7 0,4 C-4,7 -9,6 -11,2 C-14,-3 -13,-11 -8,-16 C-7,-13 -5,-10 -1,-7 Z" fill="#10B981" transform="translate(0, 72) scale(0.95)"/>
         
-        <text x="0" y="78" text-anchor="middle" class="num" style="font-size: 20px;">5</text>
+        <text x="0" y="78" text-anchor="middle" class="num" style="font-size: 20px;">6</text>
         <text x="0" y="130" text-anchor="middle" class="title">Current Streak</text>
-        <text x="0" y="150" text-anchor="middle" class="sub">Aug 31 - Sep 04</text>
+        <text x="0" y="150" text-anchor="middle" class="sub">Aug 31 - Sep 05</text>
     </g>
     
     <!-- Column 3: Longest Streak -->
